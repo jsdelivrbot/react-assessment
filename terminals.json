@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Kansas City",
+    "current_inventory": 15000,
+    "minimum_inventory": 10000,
+    "forecasts": [
+      {"date": "2018-01-01", "volume_in": 2500, "volume_out": 3000},
+      {"date": "2018-01-02", "volume_in": 2200, "volume_out": 2900},
+      {"date": "2018-01-03", "volume_in": 2300, "volume_out": 2700},
+      {"date": "2018-01-04", "volume_in": 2500, "volume_out": 2600},
+      {"date": "2018-01-05", "volume_in": 2400, "volume_out": 2400},
+      {"date": "2018-01-06", "volume_in": 2300, "volume_out": 2200},
+      {"date": "2018-01-07", "volume_in": 2600, "volume_out": 1800},
+      {"date": "2018-01-08", "volume_in": 1500, "volume_out": 1800},
+      {"date": "2018-01-09", "volume_in": 1900, "volume_out": 1900},
+      {"date": "2018-01-10", "volume_in": 2400, "volume_out": 3000},
+      {"date": "2018-01-11", "volume_in": 2000, "volume_out": 2100},
+      {"date": "2018-01-12", "volume_in": 1500, "volume_out": 2800},
+      {"date": "2018-01-13", "volume_in": 1200, "volume_out": 2000},
+      {"date": "2018-01-14", "volume_in": 1900, "volume_out": 1400},
+      {"date": "2018-01-15", "volume_in": 1400, "volume_out": 1900},
+      {"date": "2018-01-16", "volume_in": 2500, "volume_out": 2000},
+      {"date": "2018-01-17", "volume_in": 2000, "volume_out": 2000},
+      {"date": "2018-01-18", "volume_in": 1800, "volume_out": 2000},
+      {"date": "2018-01-19", "volume_in": 1700, "volume_out": 2000},
+      {"date": "2018-01-20", "volume_in": 1500, "volume_out": 2000},
+      {"date": "2018-01-21", "volume_in": 2000, "volume_out": 2200},
+      {"date": "2018-01-22", "volume_in": 1300, "volume_out": 1800},
+      {"date": "2018-01-23", "volume_in": 1500, "volume_out": 1800},
+      {"date": "2018-01-24", "volume_in": 2000, "volume_out": 1700},
+      {"date": "2018-01-25", "volume_in": 2300, "volume_out": 2000},
+      {"date": "2018-01-26", "volume_in": 2100, "volume_out": 2500},
+      {"date": "2018-01-27", "volume_in": 1700, "volume_out": 2500},
+      {"date": "2018-01-28", "volume_in": 1800, "volume_out": 2000},
+      {"date": "2018-01-29", "volume_in": 1900, "volume_out": 2000},
+      {"date": "2018-01-30", "volume_in": 2300, "volume_out": 2000},
+      {"date": "2018-01-31", "volume_in": 1800, "volume_out": 1900}
+    ]
+  }
+]
