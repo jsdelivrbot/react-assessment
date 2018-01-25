@@ -4,7 +4,7 @@ The goal of this assessment is to gauge your ability to write a React component 
 
 ### Component
 
-![https://raw.githubusercontent.com/thirteen23/react-assessment/master/react-assessment.png]
+![react-assessment](https://raw.githubusercontent.com/thirteen23/react-assessment/master/react-assessment.png)
 
 ### Specifications
 
