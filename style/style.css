@@ -1,0 +1,11 @@
+td, th {
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+
+
+.tableTitleBox {
+	height: 15px;
+	width: 100%;
+	border: 2px solid #2C2A52;
+}
