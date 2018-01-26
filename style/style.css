@@ -1,11 +1,57 @@
-td, th {
-	vertical-align: middle !important;
-	text-align: center !important;
+body, html{
+	font-family: 'Roboto', sans-serif !important;
 }
 
+.terminalTitleBox{
+	border: 1px solid #2C2A52;
+	border-left: 4px solid #11DCAE;
+	text-align: left;
+	padding-bottom: 20px #E3E3E3;
+	font-size: 12px;
+	margin-bottom: 10px;
 
-.tableTitleBox {
+}
+
+.tableHeaders{
+	font-size: 12px;
+	margin-bottom: 15px;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.tableData{
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	
+	
+}
+
+.gray{
+	background-color: #E3E3E3;
 	height: 15px;
-	width: 100%;
-	border: 2px solid #2C2A52;
 }
+
+.overall{
+	border: 1px solid #EEE;
+	
+}
+
+.terminalName{
+	font-size: 14px;
+}
+
+.terminal{
+	font-size: 10px;
+}
+
+.divider{
+	border-right: 1px solid #EEE;
+
+}
+
+.firstCell{
+	padding: 0px 0px 0px 5px !important;
+	
+}
+

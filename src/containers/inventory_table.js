@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchInventory } from '../actions/index';
 
+
 class InventoryTable extends Component {
 
 	componentDidMount(){
@@ -47,34 +48,43 @@ class InventoryTable extends Component {
 		}
 
 		return (
-			<tbody key={data.name}>
-				<tr className="tableTitleBox">
-					<th className="terminalNameRow">
-						<span className="terminalName">{ternminalName}</span> Terminal
-					</th>
-				</tr>
-				<tr className="columnHeaders">
-					<th>Current Inventory</th>
-					<th>Days Supply to Min Inventory</th>
-					<th>Forecast Volume In</th>
-					<th>Forecast EOM Closing Inventory</th>
-				</tr>
-				<tr className="tableValues">
-					<td>{calcCurrentInventory(data,date)}</td>
-					<td>{calcDaysSupplyToMinInventory(data)}</td>
-					<td>{calcForecastVolumeIn(data)}</td>
-					<td>{calcForecastEOMClosingInventory(data)}</td>
-				</tr>
-			</tbody>
-			
+			<div key={data.name} className="row">
+				<div className="col-md-3"></div>
+				<div className="col-md-6 overall">
+					<div className="row terminalTitleBox">
+						<div className="col-md-12 terminalName">{ternminalName} <span className="terminal">Terminal</span></div>
+						
+					</div>
+					<div className="row tableData">
+						<div className="col-md-3 divider tableCells firstCell">
+							<div className="row tableHeaders">Current Inventory</div>
+							<div className="row tableData">{calcCurrentInventory(data,date)}</div>
+						</div>
+						<div className="col-md-3 divider tableCells">
+							<div className="row tableHeaders">Days Supply to Min <br/> Inventory</div>
+							<div className="row tableData">{calcDaysSupplyToMinInventory(data)}</div>
+						</div>
+						<div className="col-md-3 divider tableCells">
+							<div className="row tableHeaders">Forecast Volume In</div>
+							<div className="row tableData">{calcForecastVolumeIn(data)}</div>
+						</div>
+						<div className="col-md-3 tableCells">
+							<div className="row tableHeaders">Forecast EOM Closing <br/> Inventory</div>
+							<div className="row tableData">{calcForecastEOMClosingInventory(data)}</div>
+						</div>
+					</div>
+					<div className="row gray"></div>
+				</div>
+				<div className="col-md-3"></div>
+			</div>
 		);
 	}
 
 	render() {
 		return (
-			<table className="table table-hover">
-					{this.props.inventory.map(this.renderTable)}
-			</table>
+			<div>
+				{this.props.inventory.map(this.renderTable)}
+			</div>
 		);
 	}
 }
