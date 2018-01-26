@@ -1,3 +1,9 @@
+# Usage
+1. Do an npm install
+2. Type: npm run dev into the console
+3. Output is on localhost:8080 in browser
+4. json is hosted on myjson.com and the endpoint used is https://api.myjson.com/bins/1enitl
+
 # React Assessment
 
 The goal of this assessment is to gauge your ability to write a React component along with the accompanying HTML and CSS. Fork this respository and include all of your work in that fork. When you're finished, send us the URL of your forked repo.
