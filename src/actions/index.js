@@ -4,7 +4,7 @@ const ROOT_URL = 'https://api.myjson.com/bins/1enitl';
 
 export const FETCH_INVENTORY = 'FETCH_INVENTORY';
 
-export function fetchInventory(data) {
+export function fetchInventory() {
 	const url = ROOT_URL;
 	const request = axios.get(url);
 
